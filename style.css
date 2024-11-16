@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+    background-color: var(--main-modal-color);
+}
+
+body{
+    background-color: #d3d3d3;
+}
+
+/******************************/
+
+header{
+    background-color: #DE2700;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+header img{
+    width: 10%;
+    padding: 20px 0px;
+    transition: all .1s ease;
+}
+
+
+/*************************/
+
+nav{
+    background-color: #424242;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    background-color: white;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 50px;
+    margin: 10px 3px;
+    transition: all .1s ease-in;
+    cursor: pointer;
+}
+nav li:hover{
+    box-shadow: inset 1px 2px 5px 0px rgba(23,23,23,1);
+}
+
+/******************/
+
+section{
+    width: 100%;
+    text-align: center;
+
+
+}
+
+section img{
+    width: 15%;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: inset 1px 2px 5px 0px rgba(23,23,23,1);
+}
+
+section h4{
+    font-size: 1.2em;
+}
+
+/**************/
+
+@media (max-width: 1300px) {
+    header img{
+        width: 14%;
+    }
+    
+    section img{
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    header img{
+        width: 25%;
+    }
+    
+    section img{
+        width: 60%;
+    }
+}

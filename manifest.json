@@ -1,0 +1,29 @@
+{
+    "name": "PokeApi",
+    "short_name": "PokeApi",
+    "description": "Prueba de aplicación PWA usando PokeApi",
+    "background_color": "#2B2B2B",
+    "theme_color": "#DE2700",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "./img/logo.png",
+        "sizes": "257x103",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/favicon.png",
+        "sizes": "2000x1991",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/logo_257.png",
+        "sizes": "257x257",
+        "type": "image/png"
+      }
+    ]
+  }
