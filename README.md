@@ -5,6 +5,8 @@
 
 > [!NOTE]
 > Link al tutorial https://www.youtube.com/playlist?list=PLvq-jIkSeTUYIw8CP2AP7QJs4GeeZdvs6
+
 > [!TIP]
 > Se puede usar como aplicación en el telefono desde el navegador
 
+(Vi un tiktok viendo que se podian poner ventanas como estas y lo queria usar coño)
